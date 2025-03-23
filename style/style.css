@@ -4,8 +4,12 @@
     margin: 0;
     padding: 0;
 
-}
+}   
 
+body{
+    max-width: 1920px;
+    margin: 0 auto;
+}
 
 #header {
     background-image: linear-gradient(
@@ -13,7 +17,7 @@
         rgb(9, 9, 9) 3.482%,
         rgba(16, 16, 16, 0) 101.632%
         ),
-    url(../assets/hero-bg.png);
+    url('../assets/hero-bg.png');
     width: 1920px;
     height: 919px;
     background-size: cover;
@@ -81,4 +85,59 @@ margin-top: 24px;
 
 .btn-container {
     text-align: center;
+}
+
+/* section 2 design */
+
+.about {
+    border: 2px solid red;
+    width: 1920px;
+    height: 671px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.img-container img {
+        width: 960px;
+    height: 671px;
+    position: cover;
+}
+
+.about-title {
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 48px;
+font-weight: 700;
+line-height: 64px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 136px;
+}
+
+.p1 {
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 24px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.6;
+margin-top: 24px;
+
+}
+
+.p2 {
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 32px;
+font-weight: 600;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.7;
+margin-top: 78px;
+
 }
